@@ -1,0 +1,12 @@
+pkgbase = pamtest
+pkgname = pamtest
+pkgver = 1.0.0
+pkgrel = 1
+desc = PAM-aware program to test custom PAM modules
+arch = x86_64
+url = https://github.com/SelimCifci/Pamtest
+license = GPL3
+depends = libpam
+makedepends = cmake
+source = git+https://github.com/SelimCifci/Pamtest.git
+sha256sums = SKIP
